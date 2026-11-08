@@ -2,7 +2,7 @@
 
 **Explore Myrtana in full stereoscopic PC VR.** Gothic 3 VR adds 6DoF head and hand tracking, room-scale movement, physical crouching, motion combat and controller-operated menus to the original Gothic 3.
 
-[**Download Gothic 3 VR 1.0.3**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.3/Gothic3VR-1.0.3-Setup.exe) · [Release notes and full download](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/tag/v1.0.3) · [Report a bug](https://github.com/PeCOS2k5/Gothic3VR-Releases/issues)
+[**Download Gothic 3 VR 1.0.4**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.4/Gothic3VR-1.0.4-Setup.exe) · [Release notes and full download](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/tag/v1.0.4) · [Report a bug](https://github.com/PeCOS2k5/Gothic3VR-Releases/issues)
 
 [Install and launch](#install-and-launch) · [Default controls](#default-quest--touch-controls) · [Calibration and comfort](#calibration-and-comfort) · [Troubleshooting](#troubleshooting)
 
@@ -13,14 +13,14 @@
 | Physical combat | Swing and stab with one-handed weapons, dual wield, or use both hands to guide heavy weapons and staffs. Raise a weapon or shield to block. The game's skills, stamina and ammunition still apply. |
 | Bows, crossbows and magic | Draw the bowstring by hand, steady a crossbow with your support hand, and aim spells with a controller. |
 | Interactions and menus | Point to interact, use Quick Loot, and open quick slots, Quicksave and the Main menu from the VR radial. |
-| Camera and tracking | Play in first person with tracked hands and weapons. Conversations, stationary activities and knockdown recovery use a stabilized third-person view. **Hands only** hides the first-person body. |
+| Camera and tracking | Play in first person with tracked hands and weapons. Conversations and stationary activities use a stabilized third-person view by default. Dialogue, chests, lecterns, sleeping and shrines can be switched to first person under **Interaction**. Knockdown recovery uses third person. **Hands only** hides the first-person body. |
 | Custom controls | Assign buttons, holds, double taps, two-button combinations and right-stick up/down. Test your controller inputs before entering a save. |
 
 ## Requirements and compatibility
 
 - **Gothic 3** installed on an SSD. Steam, GOG and CD/retail were tested with the supported native patch profile. A separate copy of the game is required. **Forsaken Gods** is unsupported.
 - **Windows 10 or 11 (64-bit)**, a VR-capable PC, a PC VR headset and two tracked controllers. The mod runs on the Windows PC.
-- **Quest 3 with Touch controllers** is the reference headset. Other OpenXR profiles are available where the runtime exposes them. Check detected inputs and test bindings in **Start headset setup**. Hardware support varies by headset, controller and runtime.
+- **Quest 3 with Touch controllers** is the reference headset. Other OpenXR profiles are available where the runtime exposes them. Check detected inputs and test bindings under **Headset setup**. Hardware support varies by headset, controller and runtime.
 
 | How you connect | Launcher setting under Camera & controls → OpenXR runtime |
 | --- | --- |
@@ -31,10 +31,10 @@
 ## Install and launch
 
 1. Install Gothic 3, launch it once on the desktop, then close it.
-2. Run [**Gothic3VR-1.0.3-Setup.exe**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.3/Gothic3VR-1.0.3-Setup.exe) and select the folder that contains `Gothic3.exe`.
+2. Run [**Gothic3VR-1.0.4-Setup.exe**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.4/Gothic3VR-1.0.4-Setup.exe) and select the folder that contains `Gothic3.exe`.
 3. On a clean install, accept **automatic patch installation**. Setup downloads, verifies and installs the missing patches before installing VR. It skips patches that already match the supported files. The Community Patch download is about **1.6 GB**.
 4. Keep **VR core** selected. DXVK / FFR, main-menu artwork and music are optional components. For an untested GPU, start with the optional DXVK / FFR component unchecked and set FFR to Off in the launcher.
-5. Open the **Gothic 3 VR** launcher, choose your runtime, and connect your headset and controllers. Use **Start headset setup** to calibrate or **Save and launch** to start playing. Hold **L3 + R3 for 0.5 seconds** while facing forward to recenter.
+5. Open the **Gothic 3 VR** launcher, choose your runtime, and connect your headset and controllers. Use **Headset setup → Start headset setup** to calibrate or **Save and launch** to start playing. Hold **L3 + R3 for 0.5 seconds** while facing forward to recenter.
 
 **Updating from an earlier Gothic 3 VR release?** Close the game, launcher and Union+, then run Setup over the existing installation. The update preserves saves, settings, controller bindings and calibration.
 
@@ -50,7 +50,7 @@ Setup uses these patches in order.
 | 3 | [Update Pack 1.05.10 Public Beta](https://drive.google.com/file/d/1PPdBRVHd5TYtrnqd0Na8HFUFyPV9Kzng/view) | Extract the complete ZIP over 1.04.11, replacing the supplied files. |
 | 4 | [Parallel Universe Patch 1.1.1](https://drive.google.com/file/d/1xD0x0GoadgotsDZL4dAjd0DDNRaOrFjk/view) | Install last and confirm the desktop game starts. |
 
-If a download fails, choose **Retry** in Setup. You can also place the verified packages next to Setup.exe and run it again. **START-HERE.html** in [Release.zip](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.3/Gothic3VR-1.0.3-Release.zip) lists the expected filenames and complete instructions. Use **Camera & controls → Check installation** to see which patch files match.
+If a download fails, choose **Retry** in Setup. You can also place the verified packages next to Setup.exe and run it again. **START-HERE.html** in [Release.zip](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.4/Gothic3VR-1.0.4-Release.zip) lists the expected filenames and complete instructions. Use **Camera & controls → Check installation** to see which patch files match.
 
 </details>
 
@@ -73,7 +73,7 @@ If a download fails, choose **Retry** in Setup. You can also place the verified 
 
 ## Calibration and comfort
 
-1. With Gothic 3 closed, open **Start headset setup** from **Hands**, **VR comfort settings** or **Controller mapping**.
+1. With Gothic 3 closed, open **Headset setup → Start headset setup**.
 2. In the headset, point at a setup button and squeeze either trigger. Use **Test controls** to see detected inputs, **Remap controls** to change bindings, or **Start calibration** to set your height and align your hands.
 3. If you have a save in a safe place, choose **Load a save** in the guide to finish hand calibration there. Starting fresh? Choose **Save & finish**, then open **Radial → Actions → Calibrate hands** once you reach a safe spot in the same setup session.
 
@@ -98,7 +98,7 @@ If a download fails, choose **Retry** in Setup. You can also place the verified 
 | The game opens flat on the monitor | Check **OpenXR runtime** in the launcher. Connect the headset through that provider before launch, then use **Check installation**. On Meta Link, verify that Quest Link is active and the x64 Visual C++ runtime is installed. |
 | Setup reports missing or unsupported patches | Confirm Setup points at the correct `Gothic3.exe`. Use a clean game folder for automatic patching. For a modified installation, use the manual fallback above and check the actual patch files in the launcher. |
 | Setup reports a graphics wrapper conflict | Remove the old third-party wrapper using its own uninstall steps, then retry. Setup detects unknown `d3d9.dll`, `dxgi.dll` and `d3d11.dll` proxies. |
-| Controller buttons seem missing | Open **Start headset setup → Test controls** and check the active OpenXR profile. Assign a button the runtime reports. For Main menu, the radial bypasses the system menu button. |
+| Controller buttons seem missing | Open **Headset setup → Start headset setup**, then choose **Test controls** and check the active OpenXR profile. Assign a button the runtime reports. For Main menu, the radial bypasses the system menu button. |
 | Duplicate filename warning | Move old VR DLL/INI backups and extracted installers outside the Gothic 3 directory. Gothic scans its resource subfolders. |
 | VR stopped working after Union+ | Close Union+ and use **Optional mods → Verify / recover VR**. |
 
