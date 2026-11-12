@@ -2,7 +2,7 @@
 
 **Explore Myrtana in full stereoscopic PC VR.** Gothic 3 VR adds 6DoF head and hand tracking, room-scale movement, physical crouching, motion combat and controller-operated menus to the original Gothic 3.
 
-[**Download Gothic 3 VR 1.0.4**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.4/Gothic3VR-1.0.4-Setup.exe) · [Release notes and full download](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/tag/v1.0.4) · [Report a bug](https://github.com/PeCOS2k5/Gothic3VR-Releases/issues)
+[**Download Gothic 3 VR 1.0.5**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.5/Gothic3VR-1.0.5-Setup.exe) · [Release notes and full download](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/tag/v1.0.5) · [Report a bug](https://github.com/PeCOS2k5/Gothic3VR-Releases/issues)
 
 [Install and launch](#install-and-launch) · [Default controls](#default-quest--touch-controls) · [Calibration and comfort](#calibration-and-comfort) · [Troubleshooting](#troubleshooting)
 
@@ -12,7 +12,7 @@
 | --- | --- |
 | Physical combat | Swing and stab with one-handed weapons, dual wield, or use both hands to guide heavy weapons and staffs. Raise a weapon or shield to block. The game's skills, stamina and ammunition still apply. |
 | Bows, crossbows and magic | Draw the bowstring by hand, steady a crossbow with your support hand, and aim spells with a controller. |
-| Interactions and menus | Point to interact, use Quick Loot, and open quick slots, Quicksave and the Main menu from the VR radial. |
+| Interactions and menus | Point to interact, use Quick Loot, and use the radial for quick slots with item names, icons and quantities, plus Quicksave and Main menu. The native quick-slot bar is shown in the inventory. |
 | Camera and tracking | Play in first person with tracked hands and weapons. Conversations and stationary activities use a stabilized third-person view by default. Dialogue, chests, lecterns, sleeping and shrines can be switched to first person under **Interaction**. Knockdown recovery uses third person. **Hands only** hides the first-person body. |
 | Custom controls | Assign buttons, holds, double taps, two-button combinations and right-stick up/down. Test your controller inputs before entering a save. |
 
@@ -31,7 +31,7 @@
 ## Install and launch
 
 1. Install Gothic 3, launch it once on the desktop, then close it.
-2. Run [**Gothic3VR-1.0.4-Setup.exe**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.4/Gothic3VR-1.0.4-Setup.exe) and select the folder that contains `Gothic3.exe`.
+2. Run [**Gothic3VR-1.0.5-Setup.exe**](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.5/Gothic3VR-1.0.5-Setup.exe) and select the folder that contains `Gothic3.exe`.
 3. On a clean install, accept **automatic patch installation**. Setup downloads, verifies and installs the missing patches before installing VR. It skips patches that already match the supported files. The Community Patch download is about **1.6 GB**.
 4. Keep **VR core** selected. DXVK / FFR, main-menu artwork and music are optional components. For an untested GPU, start with the optional DXVK / FFR component unchecked and set FFR to Off in the launcher.
 5. Open the **Gothic 3 VR** launcher, choose your runtime, and connect your headset and controllers. Use **Headset setup → Start headset setup** to calibrate or **Save and launch** to start playing. Hold **L3 + R3 for 0.5 seconds** while facing forward to recenter.
@@ -50,7 +50,7 @@ Setup uses these patches in order.
 | 3 | [Update Pack 1.05.10 Public Beta](https://drive.google.com/file/d/1PPdBRVHd5TYtrnqd0Na8HFUFyPV9Kzng/view) | Extract the complete ZIP over 1.04.11, replacing the supplied files. |
 | 4 | [Parallel Universe Patch 1.1.1](https://drive.google.com/file/d/1xD0x0GoadgotsDZL4dAjd0DDNRaOrFjk/view) | Install last and confirm the desktop game starts. |
 
-If a download fails, choose **Retry** in Setup. You can also place the verified packages next to Setup.exe and run it again. **START-HERE.html** in [Release.zip](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.4/Gothic3VR-1.0.4-Release.zip) lists the expected filenames and complete instructions. Use **Camera & controls → Check installation** to see which patch files match.
+If a download fails, choose **Retry** in Setup. You can also place the verified packages next to Setup.exe and run it again. **START-HERE.html** in [Release.zip](https://github.com/PeCOS2k5/Gothic3VR-Releases/releases/download/v1.0.5/Gothic3VR-1.0.5-Release.zip) lists the expected filenames and complete instructions. Use **Camera & controls → Check installation** to see which patch files match.
 
 </details>
 
